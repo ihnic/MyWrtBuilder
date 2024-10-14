@@ -20,6 +20,9 @@ PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
 # collectd 统计
 PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 
+# collectd 统计
+PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
+
 # 常用软件服务
 
 # OpenClash 代理
