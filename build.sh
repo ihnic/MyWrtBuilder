@@ -27,6 +27,11 @@ PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
 
 # tailscale
 PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
+
+PACKAGES="$PACKAGES luci-app-mihomo"
+PACKAGES="$PACKAGES luci-app-lucky"
+
+
 #########################################
 # 常用软件服务
 
