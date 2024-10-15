@@ -57,7 +57,13 @@ jobs:
         working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
         run: |
           cat external-package-urls.txt | xargs wget -P packages
-      
+
+      - name: Download and Extract Package
+        working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
+        run: |
+          wget -O package.tar.gz https://github.com/sirpdboy/luci-app-lucky/releases/download/v2.10.8/openwrt-22.03-x86_64.tar.gz
+          tar -xzvf package.tar.gz -C packages
+
       - name: Run Patch and DIY Scripts
         working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
         run: |
