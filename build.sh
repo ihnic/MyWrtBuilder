@@ -35,9 +35,9 @@ PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
 # 常用的网络存储组件
 
 # 文件助手
-PACKAGES="$PACKAGES luci-app-fileassistant"
+#PACKAGES="$PACKAGES luci-app-fileassistant"
 # 硬盘休眠
-PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
+#PACKAGES="$PACKAGES luci-i18n-hd-idle-zh-cn"
 # p910nd 打印服务器
 #PACKAGES="$PACKAGES luci-i18n-p910nd-zh-cn"
 # GoWebDav
