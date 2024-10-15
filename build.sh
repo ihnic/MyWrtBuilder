@@ -29,7 +29,7 @@ PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 
 PACKAGES="$PACKAGES luci-i18n-mihomo-zh-cn"
-PACKAGES="$PACKAGES luci-app-lucky"
+PACKAGES="$PACKAGES luci-i18n-lucky-zh-cn"
 
 
 #########################################
