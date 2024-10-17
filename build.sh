@@ -26,8 +26,8 @@ PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
 
 # tailscale
-PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
-
+#PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
+PACKAGES="$PACKAGES luci-app-tailscale"
 # Mihomo
 PACKAGES="$PACKAGES luci-i18n-mihomo-zh-cn"
 
