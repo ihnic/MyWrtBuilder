@@ -5,5 +5,3 @@ https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.3-2/luci-app-mos
 https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.3-2/luci-i18n-mosdns-zh-cn_git-24.246.09619-49e5a0d_all.ipk
 https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.3-2/mosdns_5.3.3-2_x86_64.ipk
 https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.3-2/v2dat_2022-12-15-47b8ee51-1_x86_64.ipk
-https://github.com/asvow/luci-app-tailscale/releases/download/v1.2.1/luci-app-tailscale_1.2.1_all.ipk
-https://github.com/asvow/luci-app-tailscale/releases/download/v1.2.1/luci-i18n-tailscale-zh-cn_240929.38997_all.ipk
