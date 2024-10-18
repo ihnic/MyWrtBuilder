@@ -20,7 +20,6 @@ PACKAGES="$PACKAGES luci-i18n-cpulimit-zh-cn"
 # collectd 统计
 PACKAGES="$PACKAGES luci-i18n-statistics-zh-cn"
 
-
 #############################
 # mosdns
 PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
@@ -37,6 +36,8 @@ PACKAGES="$PACKAGES luci-i18n-lucky-zh-cn"
 # TTYD终端
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 
+# shadowsocksr
+PACKAGES="$PACKAGES shadowsocksr-libev"
 #########################################
 # 常用软件服务
 
