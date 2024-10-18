@@ -67,7 +67,7 @@ PACKAGES="$PACKAGES luci-i18n-nps-zh-cn luci-i18n-frpc-zh-cn"
 #PACKAGES="$PACKAGES luci-i18n-vsftpd-zh-cn"
 
 # Docker 组件
-#PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
+PACKAGES="$PACKAGES luci-i18n-dockerman-zh-cn luci-i18n-docker-zh-cn"
 
 # VPN 类
 
