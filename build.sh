@@ -35,9 +35,6 @@ PACKAGES="$PACKAGES luci-i18n-lucky-zh-cn"
 
 # TTYD终端
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
-
-# shadowsocksr
-PACKAGES="$PACKAGES luci-app-ssr-plus"
 #########################################
 # 常用软件服务
 

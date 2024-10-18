@@ -12,7 +12,4 @@
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
-echo "src-git mihomo https://github.com/morytyann/OpenWrt-mihomo.git;main" >> "feeds.conf.default"
-echo "src-git lucky https://github.com/sirpdboy/luci-app-lucky.git;main" >> "feeds.conf.default"
-echo "src-git tailscale https://github.com/asvow/luci-app-tailscale.git;main" >> "feeds.conf.default"
-echo "src-git smpackage https://github.com/kenzok8/small-package.git;main" >> "feeds.conf.default"
+#echo "src-git lucky https://github.com/sirpdboy/luci-app-lucky.git;main" >> "feeds.conf.default"
