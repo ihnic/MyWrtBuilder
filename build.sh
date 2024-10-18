@@ -37,7 +37,7 @@ PACKAGES="$PACKAGES luci-i18n-lucky-zh-cn"
 PACKAGES="$PACKAGES luci-i18n-ttyd-zh-cn"
 
 # shadowsocksr
-PACKAGES="$PACKAGES shadowsocksr-libev"
+PACKAGES="$PACKAGES shadowsocks-libev-server"
 #########################################
 # 常用软件服务
 
