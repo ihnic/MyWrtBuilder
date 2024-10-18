@@ -70,13 +70,13 @@ jobs:
       #     chmod +x diy-part1.sh
       #     bash diy-part1.sh
 
-      - name: Update feeds
-        working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
-        run: scripts/feeds update -a
+      # - name: Update feeds
+      #   working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
+      #   run: scripts/feeds update -a
 
-      - name: Install feeds
-        working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
-        run: scripts/feeds install -a
+      # - name: Install feeds
+      #   working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
+      #   run: scripts/feeds install -a
 
       # - name: Install feeds
       #   run: scripts/feeds install -a
