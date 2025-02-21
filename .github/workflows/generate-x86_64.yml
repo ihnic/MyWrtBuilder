@@ -33,7 +33,7 @@ jobs:
       - name: Initialization Environment
         run: |
           sudo apt-get -qq update
-          sudo apt-get -qq install build-essential libncurses5-dev libncursesw5-dev zlib1g-dev gawk git gettext libssl-dev xsltproc rsync wget unzip qemu-utils mkisofs
+          sudo apt-get -qq install build-essential libncurses5-dev libncursesw5-dev zlib1g-dev gawk git gettext libssl-dev xsltproc rsync wget unzip qemu-utils mkisofs zstd
 
       - name: Setup Environment Variables
         run: |
@@ -48,9 +48,9 @@ jobs:
 
       - name: Download Image Builder
         run: |
-          wget $DOWNLOAD_BASE/releases/$VERSION/targets/x86/64/$VENDOR-imagebuilder-$VERSION-x86-64.Linux-x86_64.tar.xz
-          tar -xvf $VENDOR-imagebuilder-$VERSION-x86-64.Linux-x86_64.tar.xz
-          rm -rf $VENDOR-imagebuilder-$VERSION-x86-64.Linux-x86_64.tar.xz
+          wget $DOWNLOAD_BASE/releases/$VERSION/targets/x86/64/$VENDOR-imagebuilder-$VERSION-x86-64.Linux-x86_64.tar.zst
+          tar --use-compress-program=unzstd -xvf $VENDOR-imagebuilder-$VERSION-x86-64.Linux-x86_64.tar.zst
+          rm -rf $VENDOR-imagebuilder-$VERSION-x86-64.Linux-x86_64.tar.zst
           cp -r $GITHUB_WORKSPACE/origin/* $GITHUB_WORKSPACE/$VENDOR-imagebuilder-$VERSION-x86-64.Linux-x86_64/
       
       - name: Download External Packages
