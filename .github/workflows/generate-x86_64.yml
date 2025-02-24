@@ -64,6 +64,7 @@ jobs:
           bash scripts/builder-patch.sh
           bash scripts/clash.sh
           bash scripts/lucky.sh
+          bash scripts/tailscale.sh
        #   bash scripts/zsh.sh
 
       - name: Generate Firmware
