@@ -1,6 +1,5 @@
-https://github.com/brvphoenix/wrtbwmon/releases/download/v1.2.1-3/wrtbwmon_1.2.1-3_all.ipk
-https://github.com/brvphoenix/luci-app-wrtbwmon/releases/download/release-2.0.10/luci-app-wrtbwmon_2.0.10_all.ipk
-https://github.com/brvphoenix/luci-app-wrtbwmon/releases/download/release-2.0.10/luci-i18n-wrtbwmon-zh-cn_211213.07899_all.ipk
+https://github.com/brvphoenix/luci-app-wrtbwmon/releases/download/release-2.0.13/luci-app-wrtbwmon_2.0.13_all.ipk
+https://github.com/brvphoenix/luci-app-wrtbwmon/releases/download/release-2.0.13/luci-i18n-wrtbwmon-zh-cn_git-23.303.30948-71f8b14_all.ipk
 
 https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.3-2/luci-app-mosdns_1.6.6_all.ipk
 https://github.com/sbwml/luci-app-mosdns/releases/download/v5.3.3-2/luci-i18n-mosdns-zh-cn_git-24.246.09619-49e5a0d_all.ipk
