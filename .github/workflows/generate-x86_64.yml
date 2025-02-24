@@ -10,7 +10,7 @@ on:
       release: 
         description: 将编译出的镜像上传到 Release
         required: false
-        default: 'false'
+        default: 'true'
       upload-all:
         description: 将编译出的所有镜像都上传到 Artifacts
         required: false
@@ -57,30 +57,7 @@ jobs:
         working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
         run: |
           cat external-package-urls.txt | xargs wget -P packages
-
-      - name: Download and Extract Package
-        working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
-        run: |
-          wget -O package.tar.gz https://github.com/sirpdboy/luci-app-lucky/releases/download/v2.10.8/openwrt-22.03-x86_64.tar.gz
-          tar -xzvf package.tar.gz -C packages/
-#################################################################
-      # - name: Load custom feeds
-      #   working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
-      #   run: |
-      #     chmod +x diy-part1.sh
-      #     bash diy-part1.sh
-
-      # - name: Update feeds
-      #   working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
-      #   run: scripts/feeds update -a
-
-      # - name: Install feeds
-      #   working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
-      #   run: scripts/feeds install -a
-
-      # - name: Install feeds
-      #   run: scripts/feeds install -a
-##################################################################
+    
       - name: Run Patch and DIY Scripts
         working-directory: ${{ env.VENDOR }}-imagebuilder-${{ env.VERSION }}-x86-64.Linux-x86_64
         run: |
