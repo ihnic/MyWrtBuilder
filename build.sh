@@ -27,8 +27,8 @@ PACKAGES="$PACKAGES luci-i18n-mosdns-zh-cn"
 # tailscale
 PACKAGES="$PACKAGES luci-i18n-tailscale-zh-cn"
 
-# Mihomo
-PACKAGES="$PACKAGES luci-i18n-mihomo-zh-cn"
+# nikki
+PACKAGES="$PACKAGES luci-i18n-nikki-zh-cn"
 
 # Lucky
 PACKAGES="$PACKAGES luci-i18n-lucky-zh-cn"
